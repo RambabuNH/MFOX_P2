@@ -1,0 +1,26 @@
+﻿CREATE TABLE [wky].[Report_WeeklyTech_v6] (
+    [Priority]      VARCHAR (255)  NULL,
+    [Country]       VARCHAR (64)   NULL,
+    [L1]            VARCHAR (255)  NULL,
+    [L3]            VARCHAR (255)  NULL,
+    [StartDate]     DATE           NULL,
+    [EndDate]       DATE           NULL,
+    [ReportDays]    INT            NULL,
+    [FridgeId]      BIGINT         NULL,
+    [FridgeShortSN] VARCHAR (33)   NULL,
+    [FridgeType]    CHAR (1)       NULL,
+    [Deployed]      CHAR (1)       NULL,
+    [commDte]       DATE           NULL,
+    [Message]       VARCHAR (255)  NULL,
+    [Detail]        VARCHAR (255)  NULL,
+    [value]         FLOAT (53)     NULL,
+    [TVCTOPCTLavg]  NUMERIC (8, 1) NULL,
+    [CTBH]          NUMERIC (6, 1) NULL,
+    [SLNX]          NUMERIC (6, 1) NULL,
+    [DataRx]        NUMERIC (6, 1) NULL,
+    [CompRunAgeMin] INT            NULL,
+    [CompRunAge]    VARCHAR (32)   NULL,
+    [DataAge]       VARCHAR (32)   NULL,
+    [Link]          VARCHAR (1024) NULL
+);
+
